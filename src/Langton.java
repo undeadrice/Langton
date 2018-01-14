@@ -1,12 +1,12 @@
 
 public class Langton {
 
-	private final static int WIDTH = 800, HEIGHT = 800;
+	private final static int WIDTH = 600, HEIGHT = 600;
 	private static Window window;
 	private static Grid grid;
 	private static Ant ant;
 	private static LangtonEngine engine;
-	private static final int SCALE = 2;
+	private static final int SCALE = 4;
 	private static final int TIME_STEP = 1;
 	private static int step = 0;
 
